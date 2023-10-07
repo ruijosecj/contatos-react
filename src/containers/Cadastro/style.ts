@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import variaveis from '../../styles/variaveis'
 
 export const Campo = styled.input`
   width: 400px;

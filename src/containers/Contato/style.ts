@@ -50,9 +50,19 @@ export const BotaoCancelarRemover = styled(Botao)`
 export const Campo = styled.input`
   width: 400px;
   height: 40px;
-  border-radius: 8px;
+  border: none;
   font-size: 14px;
   display: block;
   margin: 8px;
   padding: 4px;
+  background-color: transparent;
+`
+export const CampoTelefone = styled(Campo)`
+  font-size: 24px;
+  font-weight: bold;
+  color: #8b8b8b;
+`
+export const CampoNome = styled(Campo)`
+  font-size: 24px;
+  font-weight: bold;
 `

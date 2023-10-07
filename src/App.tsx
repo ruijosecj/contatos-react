@@ -4,7 +4,6 @@ import Cadastro from './containers/Cadastro/index.'
 import ListaContatos from './containers/ListaContatos/index'
 import EstiloGlobal, { Container } from './styles'
 import store from './store'
-import Edicao from './containers/Edicao'
 
 const rotas = createBrowserRouter([
   {
@@ -15,10 +14,6 @@ const rotas = createBrowserRouter([
         <ListaContatos />
       </>
     )
-  },
-  {
-    path: '/editar/:id',
-    element: <Edicao />
   }
 ])
 
